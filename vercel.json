@@ -1,0 +1,54 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/fa",
+      "destination": "/fa/index.html"
+    },
+    {
+      "source": "/fa/",
+      "destination": "/fa/index.html"
+    },
+    {
+      "source": "/((?!assets/|images/|files/|sounds/|fa|favicon|apple-touch-icon|icon-|og-image|robots\\.txt|sitemap\\.xml|site\\.webmanifest).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/files/taha-nasrollahi-resume.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline; filename=\"Taha-Nasrollahi-Resume.pdf\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Taha Nasrollahi · Back-End Developer</title>
+    <meta
+      name="description"
+      content="Taha Nasrollahi is a backend developer in Tehran building RESTful & async APIs, event-driven pipelines, and AI-powered systems with Python, Django, DRF, and FastAPI. Explore Eventra, Kelaasor, Briefly, and StudyMate in a macOS-style portfolio."
+    />
+    <meta name="author" content="Taha Nasrollahi" />
+    <meta name="theme-color" content="#e9ecf2" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://taha-nasrollahi.vercel.app/" />
+    <link rel="alternate" hreflang="en" href="https://taha-nasrollahi.vercel.app/" />
+    <link rel="alternate" hreflang="fa" href="https://taha-nasrollahi.vercel.app/fa/" />
+    <link rel="alternate" hreflang="x-default" href="https://taha-nasrollahi.vercel.app/" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Taha Nasrollahi" />
+    <meta property="og:title" content="Taha Nasrollahi · Back-End Developer" />
+    <meta
+      property="og:description"
+      content="A backend developer portfolio you can explore like a Mac. Projects, notes, an interactive terminal, and more."
+    />
+    <meta property="og:url" content="https://taha-nasrollahi.vercel.app/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="fa_IR" />
+    <meta property="og:image" content="https://taha-nasrollahi.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Taha Nasrollahi · Back-End Developer" />
+    <meta
+      name="twitter:description"
+      content="A backend developer portfolio you can explore like a Mac. Projects, notes, an interactive terminal, and more."
+    />
+    <meta name="twitter:image" content="https://taha-nasrollahi.vercel.app/og-image.png" />
+
+    <link rel="preconnect" href="https://api.open-meteo.com" crossorigin />
+
+    <script>
+      // Apply the saved (or system) theme before first paint to avoid a flash.
+      (function () {
+        try {
+          var s = JSON.parse(localStorage.getItem("portfolio:settings") || "{}").state || {};
+          var legacy = localStorage.getItem("theme");
+          var a = s.appearance || (legacy === "dark" || legacy === "light" ? legacy : "auto");
+          var dark =
+            a === "dark" || (a === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+        // A visitor who picked Persian before gets it from the first paint.
+        try {
+          var l = localStorage.getItem("portfolio:locale");
+          if (l === "fa" || (!l && /^fa/i.test(navigator.language || ""))) {
+            document.documentElement.lang = "fa";
+            document.documentElement.dir = "rtl";
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Taha Nasrollahi",
+        "alternateName": "طاها نصرالهی",
+        "jobTitle": "Back-End Developer",
+        "worksFor": { "@type": "Organization", "name": "Kelaasor", "url": "https://kelaasor.com" },
+        "url": "https://taha-nasrollahi.vercel.app",
+        "email": "mailto:tahanasrollahii@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Tehran", "addressCountry": "IR" },
+        "knowsAbout": [
+          "Python",
+          "Django",
+          "Django REST Framework",
+          "FastAPI",
+          "PostgreSQL",
+          "Redis",
+          "Celery",
+          "RabbitMQ",
+          "Docker"
+        ],
+        "sameAs": [
+          "https://github.com/TahaNasrollahii",
+          "https://www.linkedin.com/in/tahanasrollahi/"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <main
+        style="font-family: system-ui, sans-serif; max-width: 640px; margin: 48px auto; padding: 0 20px; line-height: 1.6; background: #fff; color: #1d1d1f; border-radius: 12px"
+      >
+        <h1>Taha Nasrollahi</h1>
+        <p>
+          Backend developer in Tehran building RESTful &amp; async APIs, event-driven pipelines, and
+          AI-powered systems with Python, Django, DRF, and FastAPI.
+        </p>
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/TahaNasrollahii/Eventra">Eventra</a>: AI-powered personal
+            monitoring assistant
+          </li>
+          <li>
+            <a href="https://kelaasor.com/">Kelaasor</a>: Bootcamp management platform
+          </li>
+          <li>
+            <a href="https://github.com/TahaNasrollahii/briefly">Briefly</a>: AI-powered audio
+            intelligence platform
+          </li>
+          <li>
+            <a href="https://github.com/TahaNasrollahii/Learnova">StudyMate</a>: AI study assistant
+          </li>
+        </ul>
+        <p>
+          <a href="mailto:tahanasrollahii@gmail.com">Email</a> ·
+          <a href="https://github.com/TahaNasrollahii">GitHub</a> ·
+          <a href="https://www.linkedin.com/in/tahanasrollahi/">LinkedIn</a> ·
+          <a href="/files/taha-nasrollahi-resume.pdf">Resume (PDF)</a> ·
+          <a href="/fa/" hreflang="fa" lang="fa">فارسی</a>
+        </p>
+      </main>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

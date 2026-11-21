@@ -3,14 +3,14 @@ import { useLocale } from "./locale";
 
 const META = {
   en: {
-    title: "Taha Nasrollahi · Back-End Developer",
+    title: "Taha Nasrollahi · Software Engineer",
     description:
-      "Taha Nasrollahi is a backend developer in Tehran building RESTful & async APIs, event-driven pipelines, and AI-powered systems with Python, Django, DRF, and FastAPI. Explore Eventra, Kelaasor, Briefly, and StudyMate in a macOS-style portfolio.",
+      "Taha Nasrollahi is a Software Engineer in Tehran building scalable backends, full-stack web platforms, Telegram Mini-Apps, and AI-powered systems with Python, Django, FastAPI, NestJS, and Next.js 16.",
   },
   fa: {
-    title: "طاها نصرالهی · توسعه‌دهنده بک‌اند",
+    title: "طاها نصرالهی · مهندس نرم‌افزار",
     description:
-      "طاها نصرالهی، توسعه‌دهنده بک‌اند در تهران. ساخت APIهای ناهم‌زمان، پایپ‌لاین‌های رویدادمحور و سیستم‌های هوشمند با Python، Django، DRF و FastAPI. پروژه‌هایی مثل Eventra، کلاسور، Briefly و StudyMate را در پورتفولیویی به سبک macOS ببینید.",
+      "طاها نصرالهی، مهندس نرم‌افزار در تهران. طراحی و توسعه بک‌اندهای مقیاس‌پذیر، پلتفرم‌های وب فول‌استک، مینی‌اپ‌های تلگرام و سیستم‌های هوش مصنوعی با Python، Django، FastAPI، NestJS و Next.js 16.",
   },
 };
 

@@ -55,10 +55,10 @@
             a === "dark" || (a === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
           if (dark) document.documentElement.classList.add("dark");
         } catch (e) {}
-        // A visitor who picked Persian before gets it from the first paint.
+        // Only switch to Persian on first paint if the visitor explicitly chose it.
         try {
-          var l = localStorage.getItem("portfolio:locale");
-          if (l === "fa" || (!l && /^fa/i.test(navigator.language || ""))) {
+          var l = localStorage.getItem("portfolio:locale:v2");
+          if (l === "fa") {
             document.documentElement.lang = "fa";
             document.documentElement.dir = "rtl";
           }

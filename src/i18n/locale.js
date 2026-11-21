@@ -2,16 +2,16 @@ import { create } from "zustand";
 import { safeStorage } from "../lib/storage";
 
 export const LOCALES = ["en", "fa"];
-const KEY = "portfolio:locale";
+const KEY = "portfolio:locale:v2";
 
 // URL wins (/fa/ is a real page for search engines), then the visitor's
-// saved choice, then the browser language.
+// explicit saved choice; otherwise default strictly to English ("en").
 const initialLocale = () => {
   if (typeof window === "undefined") return "en";
   if (/^\/fa(\/|$)/.test(window.location.pathname)) return "fa";
   const saved = safeStorage.getItem(KEY);
   if (LOCALES.includes(saved)) return saved;
-  return navigator.language?.toLowerCase().startsWith("fa") ? "fa" : "en";
+  return "en";
 };
 
 const pathFor = (locale) => (locale === "fa" ? "/fa/" : "/");

@@ -11,7 +11,7 @@ import {
 
 // The resume, as a document. Rendered in the Resume window and as the
 // print/PDF version. Mirrors TahaNasrollahi.pdf faithfully.
-const RESUME_PROJECTS = ["eventra", "kelaasor", "briefly", "studymate"];
+const RESUME_PROJECTS = ["nimychat", "demetra", "titan", "kelaasor", "arama", "eventra"];
 
 const ResumeDocument = () => {
   const items = RESUME_PROJECTS.map((id) => projects.find((p) => p.id === id)).filter(Boolean);

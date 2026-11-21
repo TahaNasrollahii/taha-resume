@@ -5,11 +5,11 @@ export const profile = {
   name: "Taha Nasrollahi",
   firstName: "Taha",
   initials: "TN",
-  role: "Back-End Developer",
-  resumeRole: "Back-End Developer Intern",
+  role: "Software Engineer",
+  resumeRole: "Software Engineer · Back-End, Full-Stack & AI Systems",
   headline:
-    "Back-End developer building RESTful & async APIs, event-driven pipelines, and AI-powered systems with Python, Django & FastAPI",
-  location: "Malard, Tehran, Iran",
+    "Software engineer building scalable backends, full-stack web platforms, Telegram Mini-Apps, and AI-powered systems with Python, Django, FastAPI, NestJS & Next.js",
+  location: "Tehran, Iran",
   timezone: "Asia/Tehran",
   email: "tahanasrollahii@gmail.com",
   phone: "09014829025",
@@ -18,14 +18,15 @@ export const profile = {
   website: "https://taha-nasrollahi.vercel.app",
   websiteHost: "taha-nasrollahi.vercel.app",
   resumeUrl: "/files/taha-nasrollahi-resume.pdf",
-  availability: "Open to backend internships and junior backend developer roles",
+  availability:
+    "Available for software engineering roles, custom platform development, and technical consulting",
   education:
     "B.Sc. Computer Engineering — Software (In Progress), Islamic Azad University of Karaj",
   resumeSummary:
-    "Backend Developer Intern with hands-on experience building RESTful APIs using Django, DRF, and FastAPI. Skilled in relational database design, async task processing with Celery, Redis caching, and containerized deployments with Docker and CI/CD (GitHub Actions). Experienced in automated testing with pytest and integrating third-party/LLM-based APIs. Focused on clean architecture and maintainable, scalable backend systems.",
+    "Software Engineer specializing in production-grade backend architectures, full-stack web platforms, and AI-powered systems. Experienced across Python (Django, DRF, FastAPI) and TypeScript (NestJS, Next.js 16, Payload CMS), with deep hands-on work in PostgreSQL (pgvector), Redis, Celery/RabbitMQ/BullMQ, Telegram Mini-Apps & bots, native Android (Kotlin/Compose), technical SEO, and automated CI/CD testing (Pytest, Vitest, Playwright). Focused on shipping fast, reliable, end-to-end software that solves real business problems.",
   summary: [
-    "I'm a backend developer in Tehran with hands-on experience building RESTful and asynchronous APIs using Python, Django, Django REST Framework, and FastAPI. I focus on relational database modeling, distributed task processing with Celery and RabbitMQ, Redis caching, and containerized deployments with Docker and GitHub Actions CI/CD.",
-    "After completing the Back-End Python-Django Bootcamp at Kelaasor, I joined the engineering team to help build the Kelaasor platform itself. Lately I've been shipping event-driven backends and AI-powered services — including Eventra, Briefly, and StudyMate — integrating Groq LLaMA 3.3, Whisper, and OpenRouter with real-time WebSocket layers and comprehensive pytest suites.",
+    "I'm a software engineer in Tehran building production backends, full-stack web platforms, Telegram Mini-Apps, and AI-powered products. My core stack spans Python (Django, DRF, FastAPI) and TypeScript (NestJS, Next.js 16, Payload CMS), backed by PostgreSQL (including pgvector), Redis, Celery, RabbitMQ, BullMQ, and Dockerized CI/CD pipelines.",
+    "Currently, I engineer multi-tenant AI agent infrastructure at NimyChat and deliver end-to-end commercial platforms — including Demetra (a multilingual B2B & export platform with 93+ Lighthouse performance), Titan (an omnichannel gaming store, esports hub & Telegram Mini-App), Visika, Arama, and core backend services at Kelaasor.",
   ],
 };
 
@@ -33,16 +34,17 @@ export const profile = {
 export const profileFa = {
   name: "طاها نصرالهی",
   firstName: "طاها",
-  role: "توسعه‌دهنده بک‌اند",
-  resumeRole: "کارآموز توسعه‌دهنده بک‌اند",
+  role: "مهندس نرم‌افزار",
+  resumeRole: "مهندس نرم‌افزار · بک‌اند، فول‌استک و سیستم‌های هوش مصنوعی",
   headline:
-    "توسعه‌دهنده بک‌اند؛ ساخت APIهای ناهم‌زمان، پایپ‌لاین‌های رویدادمحور و سیستم‌های هوشمند با Python، Django و FastAPI",
-  location: "ملارد، تهران، ایران",
-  availability: "آماده همکاری در موقعیت‌های کارآموزی و جونیور بک‌اند",
+    "مهندس نرم‌افزار؛ طراحی و توسعه بک‌اندهای مقیاس‌پذیر، پلتفرم‌های وب فول‌استک، مینی‌اپ‌های تلگرام و سیستم‌های هوش مصنوعی با Python، Django، FastAPI، NestJS و Next.js",
+  location: "تهران، ایران",
+  availability:
+    "آماده همکاری در پروژه‌های مهندسی نرم‌افزار، طراحی پلتفرم‌های اختصاصی و موقعیت‌های فنی",
   education: "دانشجوی کارشناسی مهندسی کامپیوتر — نرم‌افزار، دانشگاه آزاد اسلامی کرج",
   summary: [
-    "توسعه‌دهنده بک‌اند ساکن تهران هستم با تجربه عملی در ساخت APIهای RESTful و ناهم‌زمان با Python، Django، DRF و FastAPI. تمرکزم روی طراحی پایگاه‌داده رابطه‌ای، پردازش ناهم‌زمان وظایف با Celery و RabbitMQ، کشینگ با Redis و استقرار کانتینری با Docker و CI/CD (GitHub Actions) است.",
-    "پس از گذراندن بوت‌کمپ بک‌اند پایتون و جنگو در کلاسور، به تیم فنی پیوستم تا در توسعه خود پلتفرم مشارکت کنم. این روزها سیستم‌های رویدادمحور و سرویس‌های مبتنی بر هوش مصنوعی مثل Eventra، Briefly و StudyMate را با یکپارچه‌سازی مدل‌های LLaMA 3.3، Whisper و OpenRouter، ارتباط بلادرنگ WebSocket و تست‌های خودکار pytest می‌سازم.",
+    "مهندس نرم‌افزار ساکن تهران هستم با تمرکز بر طراحی بک‌اندهای سطح پروداکشن، پلتفرم‌های وب فول‌استک، ربات و مینی‌اپ‌های تلگرام و سیستم‌های مبتنی بر هوش مصنوعی. پشته اصلی من شامل Python (Django، DRF، FastAPI) و TypeScript (NestJS، Next.js 16، Payload CMS) در کنار PostgreSQL (و pgvector)، Redis، Celery، RabbitMQ، BullMQ و پایپ‌لاین‌های تست و استقرار خودکار است.",
+    "هم‌اکنون در توسعه پلتفرم چندمستاجره ایجنت‌های هوش مصنوعی NimyChat مشارکت دارم و سیستم‌های تجاری و محصولی کاملی از جمله دمترا (پلتفرم سه‌زبانه B2B و صادراتی با امتیاز سرعت ۹۳+ گوگل)، تایتان (فروشگاه، پلتفرم تورنمنت و مینی‌اپ تلگرام همگام)، ویزیکا، آراما و سرویس‌های بک‌اند کلاسور را پیاده‌سازی کرده‌ام.",
   ],
 };
 
@@ -60,6 +62,12 @@ export const socials = [
     href: "https://www.linkedin.com/in/tahanasrollahi/",
   },
   {
+    id: "telegram",
+    label: "Telegram",
+    handle: "@TahaNasrollahi",
+    href: "https://t.me/TahaNasrollahi",
+  },
+  {
     id: "email",
     label: "Email",
     handle: profile.email,
@@ -68,41 +76,118 @@ export const socials = [
 ];
 
 export const skillCategoriesFa = {
-  "Languages & Frameworks": "زبان‌ها و فریم‌ورک‌ها",
-  Databases: "پایگاه‌داده",
-  "DevOps & Testing": "دوآپس و تست",
-  "Auth & API": "احراز هویت و API",
-  AI: "هوش مصنوعی",
+  "Backend & APIs": "بک‌اند و API",
+  "Frontend & Mobile": "فرانت‌اند و موبایل",
+  "Databases & Caching": "پایگاه‌داده و کشینگ",
+  "Async, DevOps & Quality": "صف، دوآپس و کیفیت",
+  "AI & Integrations": "هوش مصنوعی و یکپارچه‌سازی",
 };
 
 export const skills = [
   {
-    category: "Languages & Frameworks",
-    items: ["Python", "Django", "DRF", "FastAPI", "SQLAlchemy"],
+    category: "Backend & APIs",
+    items: [
+      "Python",
+      "Django",
+      "DRF",
+      "FastAPI",
+      "NestJS",
+      "Payload CMS",
+      "REST & WebSockets",
+    ],
   },
   {
-    category: "Databases",
-    items: ["PostgreSQL", "Redis", "Alembic"],
+    category: "Frontend & Mobile",
+    items: [
+      "TypeScript",
+      "Next.js 16",
+      "React 19",
+      "Tailwind CSS",
+      "Telegram Mini-Apps",
+      "Kotlin (Jetpack Compose)",
+    ],
   },
   {
-    category: "DevOps & Testing",
-    items: ["Docker", "Git", "CI/CD", "Celery", "RabbitMQ", "Pytest"],
+    category: "Databases & Caching",
+    items: [
+      "PostgreSQL",
+      "pgvector",
+      "Redis",
+      "SQLAlchemy",
+      "Drizzle ORM",
+      "Alembic",
+      "SQLCipher",
+    ],
   },
   {
-    category: "Auth & API",
-    items: ["JWT", "OTP Auth", "OAuth2", "Rate Limiting", "RESTful API Design", "WebSockets"],
+    category: "Async, DevOps & Quality",
+    items: [
+      "Celery",
+      "RabbitMQ",
+      "BullMQ",
+      "Docker",
+      "GitHub Actions CI/CD",
+      "Pytest",
+      "Playwright E2E",
+      "Technical SEO",
+    ],
   },
   {
-    category: "AI",
-    items: ["LLM API Integration", "Prompt Engineering", "Groq API", "OpenRouter"],
+    category: "AI & Integrations",
+    items: [
+      "AI Agents & RAG",
+      "OpenRouter & Groq LLMs",
+      "Whisper STT & TTS",
+      "aiogram 3",
+      "OTP & Payment Gateways",
+      "WooCommerce Bridge",
+    ],
   },
 ];
 
 export const experience = [
   {
+    id: "nimychat-role",
+    role: "Software Engineer",
+    roleFa: "مهندس نرم‌افزار",
+    company: "NimyChat (AI Agent SaaS)",
+    companyFa: "نیمی‌چت (پلتفرم SaaS هوش مصنوعی)",
+    period: "2026 – Present",
+    periodFa: "۱۴۰۵ – اکنون",
+    location: "Remote",
+    locationFa: "دورکاری",
+    bullets: [
+      "Engineering a multi-tenant AI agent SaaS monorepo with NestJS, Next.js 16, Drizzle ORM, PostgreSQL 17 + pgvector, Redis, and BullMQ.",
+      "Built precision micro-USD credit accounting with message-floor settlement, live browser voice (STT/TTS), human operator handoff, and a native WordPress/WooCommerce store plugin.",
+    ],
+    bulletsFa: [
+      "توسعه پلتفرم SaaS چندمستاجره ساخت ایجنت‌های هوش مصنوعی با معماری Monorepo (NestJS، Next.js 16، Drizzle، PostgreSQL 17 + pgvector، Redis و BullMQ).",
+      "پیاده‌سازی سیستم حسابداری دقیق میکرو-دلار، گفتگوی صوتی زنده مرورگر (STT/TTS)، تحویل مکالمه به اپراتور انسانی و افزونه اختصاصی وردپرس/ووکامرس.",
+    ],
+  },
+  {
+    id: "demetra-contract",
+    role: "Full-Stack Software Engineer (Client Project)",
+    roleFa: "مهندس نرم‌افزار فول‌استک (پروژه کارفرمایی)",
+    company: "Demetra · Pishgaman Zist Control Rayo",
+    companyFa: "دمترا · پیشگامان زیست کنترل رایو",
+    period: "2026",
+    periodFa: "۱۴۰۵",
+    location: "Alborz, Iran",
+    locationFa: "البرز، ایران",
+    bullets: [
+      "Architected and delivered a multilingual (FA/EN/ES) B2B sales platform, interactive agronomic dosage calculator, export inquiry funnel, and TOTP-hardened Payload CMS 3 admin.",
+      "Achieved 93+ mobile Lighthouse scores, zero High/Critical OWASP ZAP findings, 229 Vitest unit/integration tests, and 88 Playwright + axe E2E checks.",
+    ],
+    bulletsFa: [
+      "طراحی و پیاده‌سازی پلتفرم فروش B2B و ویترین صادراتی سه‌زبانه (فارسی/انگلیسی/اسپانیایی)، ماشین‌حساب تخصصی دوز مصرف و پنل مدیریت Payload CMS مجهز به TOTP 2FA.",
+      "کسب امتیاز بالای ۹۳ در Lighthouse موبایل، ۲۲۹ تست واحد و یکپارچه Vitest و ۸۸ تست سرتاسری Playwright به همراه سئوی تکنیکال کامل.",
+    ],
+  },
+  {
     id: "kelaasor-role",
-    role: "Django Developer",
-    roleFa: "توسعه‌دهنده جنگو",
+    role: "Django Back-End Developer",
+    roleFa: "توسعه‌دهنده بک‌اند جنگو",
     company: "Kelaasor",
     companyFa: "کلاسور",
     period: "2026",
@@ -110,16 +195,16 @@ export const experience = [
     location: "Tehran, Iran",
     locationFa: "تهران، ایران",
     bullets: [
-      "Contributed to backend development of the Kelaasor bootcamp platform as part of the engineering team.",
+      "Developed core Django REST Framework services for the Kelaasor bootcamp platform — covering course catalogs, OTP authentication, Buy Now Pay Later (BNPL) multi-installment enrollments, and SMS support ticketing.",
     ],
     bulletsFa: [
-      "مشارکت در توسعه بک‌اند پلتفرم بوت‌کمپ کلاسور به‌عنوان عضو تیم مهندسی (لیستینگ دوره‌ها، منطق ثبت‌نام و ماژول بلاگ).",
+      "توسعه سرویس‌های اصلی بک‌اند پلتفرم بوت‌کمپ کلاسور با Django و DRF شامل کاتالوگ دوره‌ها، احراز هویت OTP، سیستم ثبت‌نام اقساطی (BNPL) و تیکتینگ پیامکی.",
     ],
   },
   {
-    id: "avid-internship",
-    role: "Dotnet Developer (Internship)",
-    roleFa: "کارآموز توسعه‌دهنده دات‌نت",
+    id: "avid-trainee",
+    role: ".NET Developer Trainee",
+    roleFa: "توسعه‌دهنده آزمایشی دات‌نت",
     company: "Avid Samaneh Raymon",
     companyFa: "آوید سامانه رایمون",
     period: "10/2020 – 12/2020",
@@ -127,10 +212,10 @@ export const experience = [
     location: "Alborz Province, Iran",
     locationFa: "استان البرز، ایران",
     bullets: [
-      "Short-term internship covering .NET development fundamentals and introductory team-based software workflows.",
+      "Early short-term training role covering .NET ERP fundamentals and collaborative software engineering workflows.",
     ],
     bulletsFa: [
-      "کارآموزی کوتاه‌مدت شامل مبانی توسعه .NET و آشنایی با گردش‌کار تیمی مهندسی نرم‌افزار.",
+      "دوره کوتاه‌مدت آغازین شامل مبانی توسعه نرم‌افزارهای سازمانی .NET و آشنایی با گردش‌کار تیمی مهندسی نرم‌افزار.",
     ],
   },
 ];
@@ -181,15 +266,15 @@ export const spokenLanguages = [
 ];
 
 export const funFacts = [
-  "If an API endpoint takes more than 100ms because of a blocking call, I'm already moving it into a dedicated Celery queue.",
-  "I don't trust a feature until it runs cleanly inside Docker Compose and passes an async pytest suite in CI.",
-  "My favorite architecture pattern is separating slow LLM/audio jobs from fast HTTP responses using RabbitMQ and Redis WebSockets.",
-  "I use `select_for_update()` and atomic transactions like a seatbelt — concurrency bugs don't get a second chance.",
+  "If an API endpoint takes more than 100ms because of a blocking call, I'm already moving it into a dedicated Celery or BullMQ queue.",
+  "I don't trust a feature until it runs cleanly in CI and passes automated unit, integration, and Playwright E2E checks.",
+  "Whether it's micro-dollar LLM ledger math in Postgres or Persian ZWNJ-safe text sanitization, edge cases get tested against a real database — never mocked away.",
+  "I use `select_for_update()`, idempotent webhooks, and atomic transactions like a seatbelt — concurrency bugs don't get a second chance.",
 ];
 
 export const funFactsFa = [
-  "اگر یک اندپوینت API به‌خاطر عملیات سنگین بیش از ۱۰۰ میلی‌ثانیه طول بکشد، همان لحظه به فکر انتقالش به صف اختصاصی Celery هستم.",
-  "به هیچ فیچری اعتماد نمی‌کنم مگر اینکه داخل Docker Compose بالا بیاید و تست‌های ناهم‌زمان pytest را در CI پاس کند.",
-  "معماری موردعلاقه‌ام جداسازی پردازش‌های سنگین هوش مصنوعی و صوت از پاسخ‌های سریع HTTP با کمک RabbitMQ و WebSocket است.",
-  "از `select_for_update()` و تراکنش‌های اتمیک مثل کمربند ایمنی استفاده می‌کنم؛ باگ‌های هم‌زمانی فرصت دوباره پیدا نمی‌کنند.",
+  "اگر یک اندپوینت API به‌خاطر عملیات سنگین بیش از ۱۰۰ میلی‌ثانیه طول بکشد، همان لحظه به فکر انتقالش به صف اختصاصی Celery یا BullMQ هستم.",
+  "به هیچ فیچری اعتماد نمی‌کنم مگر اینکه در پایپ‌لاین CI بالا بیاید و تست‌های خودکار واحد، یکپارچه و Playwright E2E را پاس کند.",
+  "چه حسابداری میکرو-دلار مصرف LLM در Postgres باشد و چه حفظ نیم‌فاصله استاندارد فارسی در ورودی‌ها، موارد مرزی را همیشه روی دیتابیس واقعی تست می‌کنم نه با Mock.",
+  "از `select_for_update()`، وب‌هوک‌های Idempotent و تراکنش‌های اتمیک مثل کمربند ایمنی استفاده می‌کنم؛ باگ‌های هم‌زمانی فرصت دوباره پیدا نمی‌کنند.",
 ];

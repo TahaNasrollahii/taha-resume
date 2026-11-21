@@ -1,6 +1,6 @@
 # Taha Nasrollahi — macOS & iOS Portfolio
 
-Interactive personal portfolio and resume website for **Taha Nasrollahi** (`طاها نصرالهی`), Back-End Developer specializing in **Python, Django, Django REST Framework, and FastAPI**.
+Interactive personal portfolio and resume website for **Taha Nasrollahi** (`طاها نصرالهی`), Software Engineer specializing in **Python, Django, FastAPI, NestJS, Next.js 16, Telegram Mini-Apps, and AI-powered systems**.
 
 Modeled as a full **macOS desktop** on large screens and an **iOS home screen** on mobile devices, complete with draggable/resizable windows, a simulated `zsh` terminal, Spotlight search (`⌘K`), bilingual English & Persian (`RTL` + Jalali calendar) support, live Tehran weather, live GitHub activity, and a printable/downloadable resume.
 
@@ -12,7 +12,7 @@ Modeled as a full **macOS desktop** on large screens and an **iOS home screen** 
   - Draggable, resizable, minimizable, and tileable windows with Mission Control and Dock magnification.
   - Automatic responsive switch to an iOS-inspired home screen and app switcher on mobile viewports.
 - **Apps Included**:
-  - **Projects (`Safari`)**: Deep-dive case studies for **Eventra**, **Kelaasor**, **Briefly**, **StudyMate**, **Titan**, **Visika**, and archived microservices (`Kelaasor Video Streaming`, `The Corridor Bot`, `Django REST Bootcamp Suite`).
+  - **Projects (`Safari`)**: Deep-dive case studies for **NimyChat**, **Demetra**, **Titan**, **Kelaasor**, **Arama**, **Eventra**, **Visika**, **Briefly**, **StudyMate**, and archived microservices (`The Corridor Bot & Mini-App`, `Kelaasor Video Streaming`, `Django REST Bootcamp Suite`).
   - **Notes**: Personal bio, work experience, education, bootcamp certifications, tech stack, and site colophon.
   - **Terminal**: Interactive `zsh`-style shell over a virtual filesystem (`/home/taha`) supporting `ls`, `cd`, `cat`, `tree`, `find`, `grep`, `neofetch`, `cowsay`, `open`, `hire`, pipes (`|`), and tab completion.
   - **Finder**: Browse featured projects, about notes,Resume.pdf, wallpapers, and early practice repos in the Trash.

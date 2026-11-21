@@ -91,7 +91,7 @@ const MobileHome = () => {
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
   }, [controlCenterOpen, closeControlCenter]);
-  const featured = projects.find((p) => p.id === "eventra") ?? projects[0];
+  const featured = projects.find((p) => p.id === "nimychat") ?? projects[0];
   // While an app is open full-screen, the home screen is covered: keep it
   // out of the tab order and the accessibility tree.
   const appOpen = useWindowStore((s) => selectFocusedKey(s) !== null);

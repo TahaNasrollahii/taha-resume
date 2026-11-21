@@ -142,7 +142,7 @@ export const ui = {
     "projects.eyebrow": "Selected work · {count} projects",
     "projects.title": "Projects",
     "projects.lede":
-      "Backend platforms, asynchronous task pipelines, and AI-powered systems built with Python, Django, DRF, FastAPI, Celery, RabbitMQ, and PostgreSQL.",
+      "Full-stack web platforms, multi-tenant AI SaaS systems, Telegram Mini-Apps, and scalable backends built with Python, Django, FastAPI, TypeScript, NestJS, Next.js 16, and PostgreSQL.",
     "projects.filter": "Filter projects",
     "projects.earlier": "Earlier work",
     "projects.live": "Live",
@@ -205,7 +205,7 @@ export const ui = {
     "contact.linkedin": "linkedin",
     "contact.telegram": "telegram",
     "contact.note":
-      "Looking for a backend developer intern or junior engineer? Send a message from Mail, or connect with me on LinkedIn and GitHub.",
+      "Need a custom web platform, Telegram Mini-App, AI workflow, or software engineer on your team? Send a message via Mail, Telegram, or LinkedIn.",
 
     "resume.title": "TahaNasrollahi.pdf",
     "resume.print": "Print resume",
@@ -256,8 +256,8 @@ export const ui = {
     "mail.subject": "Subject:",
     "mail.subjectPlaceholder": "What's it about?",
     "mail.topic": "Topic",
-    "mail.topic.project": "A project",
-    "mail.topic.job": "A job / internship",
+    "mail.topic.project": "A client project",
+    "mail.topic.job": "A role / collaboration",
     "mail.topic.hello": "Just saying hi",
     "mail.message": "Message",
     "mail.messagePlaceholder": "Tell me a bit about it…",
@@ -464,7 +464,7 @@ export const ui = {
     "projects.eyebrow": "پروژه‌های منتخب · {count} پروژه",
     "projects.title": "پروژه‌ها",
     "projects.lede":
-      "پلتفرم‌های بک‌اند، پایپ‌لاین‌های پردازش ناهم‌زمان و سرویس‌های مبتنی بر هوش مصنوعی ساخته‌شده با Python، Django، DRF، FastAPI، Celery، RabbitMQ و PostgreSQL.",
+      "پلتفرم‌های وب فول‌استک، سامانه‌های SaaS هوش مصنوعی، مینی‌اپ‌های تلگرام و بک‌اندهای مقیاس‌پذیر ساخته‌شده با Python، Django، FastAPI، TypeScript، NestJS، Next.js 16 و PostgreSQL.",
     "projects.filter": "فیلتر پروژه‌ها",
     "projects.earlier": "کارهای دیگر",
     "projects.live": "نسخه زنده",
@@ -527,7 +527,7 @@ export const ui = {
     "contact.linkedin": "لینکدین",
     "contact.telegram": "تلگرام",
     "contact.note":
-      "به دنبال کارآموز یا توسعه‌دهنده جونیور بک‌اند هستید؟ از اپ ایمیل برایم پیام بفرستید یا در لینکدین و گیت‌هاب با من در ارتباط باشید.",
+      "برای سفارش طراحی پلتفرم وب، مینی‌اپ تلگرام، سیستم‌های هوش مصنوعی یا همکاری فنی، از طریق اپ ایمیل، تلگرام یا لینکدین به من پیام بدهید.",
 
     "resume.title": "TahaNasrollahi.pdf",
     "resume.print": "چاپ رزومه",
@@ -579,8 +579,8 @@ export const ui = {
     "mail.subject": "موضوع:",
     "mail.subjectPlaceholder": "درباره چیست؟",
     "mail.topic": "موضوع",
-    "mail.topic.project": "یک پروژه",
-    "mail.topic.job": "پیشنهاد کاری / کارآموزی",
+    "mail.topic.project": "سفارش پروژه",
+    "mail.topic.job": "همکاری فنی / پیشنهاد کاری",
     "mail.topic.hello": "فقط یک سلام",
     "mail.message": "پیام",
     "mail.messagePlaceholder": "کمی درباره‌اش بنویسید…",

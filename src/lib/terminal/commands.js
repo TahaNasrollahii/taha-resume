@@ -848,7 +848,7 @@ export const COMMANDS = {
         row("Terminal Font", "Geist Mono"),
         row("CPU", "Taha (1 core, coffee-cooled)"),
         row("Role", `${profile.role}, ${profile.location}`),
-        row("Stack", "Python, Django, DRF, FastAPI, PostgreSQL, Redis, Docker"),
+        row("Stack", "Python, Django, FastAPI, NestJS, Next.js 16, PostgreSQL, Redis, Docker"),
         row("Projects", `${projects.length} featured · cd ~/projects`),
         row("Status", profile.availability),
         line(""),

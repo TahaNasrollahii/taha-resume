@@ -18,7 +18,7 @@ export const finderLabels = {
     trashSubtitle: "Early practice repos, kept for nostalgia",
     trashBody: [
       "These are some of my earlier learning and practice repositories from when I was exploring C#/Blazor, PHP/Laravel, and introductory FastAPI CRUD apps.",
-      "They were great stepping stones, though my current work focuses on production-grade Python backends with Django, DRF, FastAPI, Celery, RabbitMQ, and Docker. The repos are still on GitHub if you're curious.",
+      "They were great stepping stones — today my work focuses on production-grade full-stack platforms, scalable Python/TypeScript backends, Telegram Mini-Apps, and AI-powered systems. The repos are still on GitHub if you're curious.",
     ],
   },
   fa: {
@@ -37,7 +37,7 @@ export const finderLabels = {
     trashSubtitle: "تمرین‌های قدیمی، به یادگار",
     trashBody: [
       "این‌ها تعدادی از مخزن‌های تمرینی و آموزشی اولیه من از دوران آشنایی با C#/Blazor، PHP/Laravel و اولین پروژه‌های آزمایشی FastAPI هستند.",
-      "پله‌های یادگیری خوبی بودند، اما کارهای فعلی من روی بک‌اندهای سطح پروداکشن با Python، Django، DRF، FastAPI، Celery، RabbitMQ و Docker متمرکز است. اگر کنجکاوید، مخزن‌هایشان هنوز در گیت‌هاب هست.",
+      "پله‌های یادگیری خوبی بودند؛ امروز تمرکز من روی پلتفرم‌های فول‌استک پروداکشن، بک‌اندهای مقیاس‌پذیر Python و TypeScript، مینی‌اپ‌های تلگرام و سیستم‌های هوش مصنوعی است. اگر کنجکاوید، مخزن‌هایشان هنوز در گیت‌هاب هست.",
     ],
   },
 };
